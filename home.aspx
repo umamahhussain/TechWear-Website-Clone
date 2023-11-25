@@ -69,6 +69,60 @@
             display: inline-block;
             vertical-align: middle;
         }
+
+        .footer-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+        }
+
+        .footer h1 {
+            padding-top: 7px;
+            color: aliceblue;
+        }
+
+        .footer p {
+            padding-top: 7px;
+        }
+
+        .button-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2px;
+            padding: 7px;
+        }
+
+        .button {
+            background-color: #2d2d2d;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+            cursor: pointer;
+            border-radius: 9999px;
+        }
+
+        .resources,
+        .company,
+        .policies {
+            padding-bottom: 5px;
+        }
+
+        .links {
+            display: flex;
+            flex-direction: column;
+            gap: 3px;
+            padding-top: 7px;
+        }
+
+        .link {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+            font-size: 18px;
+        }
+
+        .link:hover {
+            color: #808080;
+        }
     </style>
 
 </head>
@@ -139,7 +193,8 @@
                     <div class="image-overlay">
                         <h1 style="color: aliceblue;text-shadow: 0 0 10px rgba(255, 255, 255, 1);">MEN'S</h1>
                         <h1
-                            style="background-color: black;color: rgb(0, 253, 0);text-shadow: 0 0 10px rgba(0, 253, 0);">COLLECTION</h1>
+                            style="background-color: black;color: rgb(0, 253, 0);text-shadow: 0 0 10px rgba(0, 253, 0);">
+                            COLLECTION</h1>
                     </div>
                 </div>
 
@@ -148,7 +203,8 @@
                     <div class="image-overlay">
                         <h1 style="color: aliceblue;text-shadow: 0 0 10px rgba(255, 255, 255, 1);">WOMEN'S</h1>
                         <h1
-                            style="background-color: black;color: rgb(0, 219, 253);text-shadow: 0 0 10px rgba(0, 219, 253);">COLLECTION</h1>
+                            style="background-color: black;color: rgb(0, 219, 253);text-shadow: 0 0 10px rgba(0, 219, 253);">
+                            COLLECTION</h1>
                     </div>
                 </div>
 
@@ -158,7 +214,8 @@
                         <u> TECHWEAR COMMUNITY</u>
                     </h2>
                     <div class="video-container">
-                        <iframe width="1000" height="700" src="https://www.youtube.com/embed/8W-timQTi48" frameborder="0" allow="fullscreen"></iframe>
+                        <iframe width="1000" height="700" src="https://www.youtube.com/embed/8W-timQTi48"
+                            frameborder="0" allow="fullscreen"></iframe>
                     </div>
                     <h2 style="text-align: center;margin-top: 100px ;color: aliceblue; 
                     text-shadow: 0 0 10px rgba(255, 255, 255, 1);">
@@ -167,19 +224,23 @@
                 </div>
 
                 <div class="col-sm-3 image-container mt-4">
-                    <img src="https://i.pinimg.com/564x/33/dd/c7/33ddc7009cb579a78934ccc21c5b81c0.jpg" height="350" alt="Another Image" />
+                    <img src="https://i.pinimg.com/564x/33/dd/c7/33ddc7009cb579a78934ccc21c5b81c0.jpg" height="350"
+                        alt="Another Image" />
                 </div>
 
                 <div class="col-sm-3 image-container mt-4">
-                    <img src="https://i.pinimg.com/474x/c3/36/68/c33668e2aceab96f222dc697e3334e4e.jpg" height="350" alt="Another Image" />
+                    <img src="https://i.pinimg.com/474x/c3/36/68/c33668e2aceab96f222dc697e3334e4e.jpg" height="350"
+                        alt="Another Image" />
                 </div>
 
                 <div class="col-sm-3 image-container mt-4">
-                    <img src="https://i.pinimg.com/474x/f0/9c/c1/f09cc1d8b4b750e1217e2fb5acd7c85e.jpg" height="350" alt="Another Image" />
+                    <img src="https://i.pinimg.com/474x/f0/9c/c1/f09cc1d8b4b750e1217e2fb5acd7c85e.jpg" height="350"
+                        alt="Another Image" />
                 </div>
 
                 <div class="col-sm-3 image-container mt-4">
-                    <img src="https://i.pinimg.com/564x/03/64/7c/03647c8b495efc5c0ff98814f25a4175.jpg" height="350" alt="Another Image" />
+                    <img src="https://i.pinimg.com/564x/03/64/7c/03647c8b495efc5c0ff98814f25a4175.jpg" height="350"
+                        alt="Another Image" />
                 </div>
 
                 <div style="background-color: aliceblue;" class="col-sm-12">
@@ -188,12 +249,12 @@
                             <i class="material-icons">local_shipping</i>
                             <p>Free Delivery</p>
                         </div>
-                
+
                         <div style="color: black;" class="col-sm-4 mt-4 text-center">
                             <i class="material-icons">phone</i>
                             <p>24/7 Support</p>
                         </div>
-                
+
                         <div style="color: black;" class="col-sm-4 mt-4 text-center">
                             <i class="material-icons">credit_card</i>
                             <p>Secure Payment</p>
@@ -207,11 +268,50 @@
                         Sign up to get the latest on Sales, New Releases and More...
                     </h4>
                 </div>
-                
-                
-                
 
-
+                <div class="footer-grid">
+                    <div class="section" style="border-left: 1px solid #222222">
+                        <h1 style="color: aliceblue;">Techwear</h1>
+                        <p style="color: aliceblue;">
+                            Techwear UK is the major Japanese Techwear online shop in Pakistan. We commit to offer the
+                            most affordable technical clothes with high tech fabrics.
+                        </p>
+                        <div class="button-container">
+                            <div class="button">Twitter</div>
+                            <div class="button">Instagram</div>
+                            <div class="button">YouTube</div>
+                            <div class="button">Facebook</div>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h1 style="color: aliceblue;">Resources</h1>
+                        <div class="links">
+                            <a href="/" class="link">Support</a>
+                            <a href="/" class="link">Feedback</a>
+                            <a href="/" class="link">Sign In</a>
+                            <a href="/" class="link">Pricing</a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h1 style="color: aliceblue;">Company</h1>
+                        <div class="links">
+                            <a href="/" class="link">Blog</a>
+                            <a href="/" class="link">About</a>
+                            <a href="/" class="link">Careers</a>
+                            <a href="/" class="link">Partners</a>
+                            <a href="/" class="link">Contact Us</a>
+                        </div>
+                    </div>
+                    <div class="section">
+                        <h1 style="color: aliceblue;">Policies</h1>
+                        <div class="links">
+                            <a href="/" class="link">Terms</a>
+                            <a href="/" class="link">Privacy</a>
+                            <a href="/" class="link">License</a>
+                            <a href="/" class="link">Company Information</a>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </form>
